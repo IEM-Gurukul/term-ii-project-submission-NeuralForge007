@@ -130,6 +130,7 @@ public class MainFrame extends JFrame {
         panel.add(form, BorderLayout.NORTH);
         panel.add(bookButton, BorderLayout.SOUTH);
         return panel;
+
     }
 
     private JPanel createRecordsPanel() {
@@ -246,8 +247,13 @@ public class MainFrame extends JFrame {
     private void loadSampleData() {
         rentalService.addVehicle(new car("V1", "Toyota", "Etios", 1500));
         rentalService.addVehicle(new bike("V2", "Yamaha", "FZ", 700));
-        rentalService.addVehicle(new truck("V3", "Tata", "Ace", 2500));
+        rentalService.addVehicle(new bike("V3", "Triumph", "Speed T4", 1200));
+        rentalService.addVehicle(new truck("V4", "Tata", "Ace", 2500));
+        rentalService.addVehicle(new car("V5", "Hyundai", "Creta", 1700));
 
         rentalService.addCustomer(new customer("C1", "Rik", "9876543210"));
+        rentalService.addCustomer(new customer("C2", "Avijit", "8376553410"));
+        rentalService.addCustomer(new customer("C3", "Sayan", "7319353410"));
+
     }
-}
+ }
