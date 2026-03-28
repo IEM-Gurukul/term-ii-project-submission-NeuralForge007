@@ -59,7 +59,9 @@ The system follows a modular approach where each layer interacts with others in 
 
 ---### Using Command Line
 write in VS code,intellij,Eclipse
+
 javac -d out src/model/*.java src/service/*.java src/exception/*.java src/gui/*.java
+
 java -cp out gui.VehicleRentalApp
 
 ## Git Discipline Notes
