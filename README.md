@@ -65,4 +65,21 @@ javac -d out src/model/*.java src/service/*.java src/exception/*.java src/gui/*.
 java -cp out gui.VehicleRentalApp
 
 ## Git Discipline Notes
-Minimum 10 meaningful commits required.
+
+- A total of **12+ meaningful commits** have been made during the development of this project.
+- Each commit represents a specific stage of development, ensuring incremental progress.
+
+### Key Development Stages:
+- Project structure initialization
+- Base vehicle model and subclasses (car, bike, truck)
+- Customer and booking model implementation
+- Service layer and exception handling
+- Swing GUI development (initialization and main window)
+- README documentation
+- UML diagram integration
+- GUI improvements and updates
+- Report and presentation (PPT) addition
+
+- Commit messages are descriptive and reflect the work done at each stage.
+- Development was carried out over multiple days, avoiding a single bulk upload.
+- Version control was properly maintained using Git and GitHub.
